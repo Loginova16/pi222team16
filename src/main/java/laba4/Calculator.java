@@ -56,12 +56,14 @@ public class Calculator extends HttpServlet  {
 			third_try=Double.parseDouble(third_calc);
 			fourth_try=Double.parseDouble(fourth_calc);
 			}
-			catch (NumberFormatException e) {
+			catch (NumberFormatException e)  {	
 				first_try=0;
 				second_try=0;
 				third_try=0;
 				fourth_try=0;
+		
 			}
+			
 		perimetr=first_try + second_try + third_try + fourth_try;
 		request.setAttribute("perimetr", perimetr);
 		}

@@ -13,5 +13,6 @@
 <p><strong> Третья сторона:</strong> ${third_result}</p>
 <p><strong> Четвертая сторона:</strong> ${fourth_result}</p>
 <p><strong>Периметр трапеции:</strong> ${perimetr}</p>
+<form action="${pageContext.request.contextPath}/Form.jsp"> <input type="submit" name="sign" value="Назад"></form>
 </body>
 </html>
