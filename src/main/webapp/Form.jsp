@@ -7,6 +7,7 @@
 <title>Калькулятор - периметр трапеции</title>
 </head>
 	<body>
+        <body bgcolor="#FFE4E1">
 	<h1>Калькулятор - периметр трапеции</h1>
 	<form action="${pageContext.request.contextPath }/JavaCalc" method="post">
 	<label for="first"> Первая сторона: </label>
