@@ -7,6 +7,7 @@
 <title>Результат вычислений</title>
 </head>
 <body>
+<body bgcolor="#FFEBCD">
 <h1>Результат вычислений</h1>
 <p><strong> Первая сторона:</strong> ${first_result}</p>
 <p><strong> Вторая сторона:</strong> ${second_result}</p>
