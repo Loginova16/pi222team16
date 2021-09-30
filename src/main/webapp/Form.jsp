@@ -10,10 +10,10 @@
         <body bgcolor="#FFE4E1">
 	<h1>Калькулятор - периметр трапеции</h1>
 	<form action="${pageContext.request.contextPath }/JavaCalc" method="post">
-	<label for="first"> Первая сторона: </label>
+	<label for="first"> Первая сторона (мм): </label>
 	<input type="text" name="first" id="first" value="${first}"> <br>
 	
-	<label for="second"> Вторая сторона:</label>
+	<label for="second"> Вторая сторона (мм):</label>
 	<input type="text" name="second" id="second" value="${second}"> <br>
 	
 	<label for="third"> Третья сторона:</label>
