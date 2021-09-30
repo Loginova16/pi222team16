@@ -16,10 +16,10 @@
 	<label for="second"> Вторая сторона (мм):</label>
 	<input type="text" name="second" id="second" value="${second}"> <br>
 	
-	<label for="third"> Третья сторона:</label>
+	<label for="third"> Третья сторона (мм):</label>
 	<input type="text" name="third" id="third" value="${third}"> <br>
 	
-	<label for="fourth"> Четвертая сторона:</label>
+	<label for="fourth"> Четвертая сторона (мм):</label>
 	<input type="text" name="fourth" id="fourth" value="${fourth}"> <br>
 	
 		<input type="submit" name="sign" value="Calculate"> 
